@@ -1,5 +1,5 @@
 // --------Excel file info-----------
-import xlsx from "xlsx"
+let xlsx = require("xlsx")
 
 const FILE_NAME_PATH = 'Masjid Huzaifah - Prayer Dashboard.xlsx'
 const SHEET_NAME_IN_FILE = "Scar-PT-2022"
