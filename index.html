@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Masjid Huzaifah</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="module" src="temp.js" defer></script>
+            <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="clockDisplay()">
+        <div class="main">
+            <h1>JAME MASJID HUZAIFAH</h1>
+            <div id="clock"></div>
+
+            <table class="table-style">
+              <thead>
+                <tr>
+                  <th>Salah</th>
+                  <th>Start Time</th>
+                  <th>Iqamah</th>
+                </tr>
+              </thead>
+              <tr>
+                <td>Fajr</td>
+                <td id='Fajr Adhan'></td>
+                <td>6:30</td>
+              </tr>
+              <tr>
+                <td>Sunrise</td>
+                <td>6:49</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Duha</td>
+                <td>7:09</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Zawal</td>
+                <td>01:13 PM - 01:18 PM</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Dhuhr</td>
+                <td>13:19</td>
+                <td>13:39</td>
+              </tr>
+              <tr>
+                <td>Asr</td>
+                <td>17:54</td>
+                <td>18:24</td>
+              </tr>
+              <tr>
+                <td>Maghrib</td>
+                <td>19:50</td>
+                <td>19:56</td>
+              </tr>
+              <tr>
+                <td>Isha</td>
+                <td>21:13</td>
+                <td>21:23</td>
+              </tr>
+            </table>
+
+            <!-- <img class="img-background" src="img/land1.jpg" alt="img"> -->
+        </div>
+
+        <script>
+          $(document).ready(function() { 
+            refreshAt(17,50,0); 
+          });
+        </script>
+        
+    </body>
+</html>
